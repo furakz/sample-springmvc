@@ -1,5 +1,11 @@
-<web-app id="WebApp_ID">
-  <display-name>maven-prog2-web</display-name>
+<web-app id="WebApp_ID"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+						http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+  <display-name>sample-springmvc</display-name>
   <welcome-file-list>
   	<welcome-file>index.html</welcome-file>
   	<welcome-file>index.htm</welcome-file>
